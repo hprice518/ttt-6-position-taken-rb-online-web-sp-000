@@ -7,12 +7,11 @@
 #  end
 #end
 
-
-
 def position_taken?(board, index)
-   if (board[index] == " ") || (board[index] == "") || (board[index] == nil)
-      return false 
-   else
-      return true
-   end
+  if (board[index] == " ") || if (board[index] == "") || if (board[index] == nil) 
+    return false
+  else
+    return true  
+  end 
 end
+
