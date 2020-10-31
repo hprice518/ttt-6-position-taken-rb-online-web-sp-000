@@ -7,5 +7,5 @@ def move(board,input,draw = "X")
 end
 
 def position_taken? 
-  if 
+  
 end
