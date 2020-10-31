@@ -1,8 +1,8 @@
 
 def position_taken?(board, input)
   if input != "X" || input == "O"
-    return FALSE 
+    FALSE 
   elsif input == "X" || input == "O"
-    return TRUE 
+    TRUE 
   end
 end
