@@ -1,5 +1,6 @@
 
 def position_taken?(x)
-  if x == "X" || if x == "O"
-  elsif x != "X" || 
+  if x == "X" || x == "O"
+  elsif x != "X" || x == "O"
+  end
 end
